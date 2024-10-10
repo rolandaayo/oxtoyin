@@ -599,6 +599,7 @@ body {
 .product-list {
   display: grid;
   gap: 50px 25px;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 
@@ -1347,4 +1348,11 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
     gap: 50px;
   }
 
+}
+
+shadoweffect {
+  filter: drop-shadow(0 50px 20px #0009);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
 }
